@@ -129,6 +129,9 @@ body {
     text-decoration: none;
 }
 
+.news-feed .sorting-by-games-developers .active-news{
+    border-bottom: black solid 1px;
+}
 
 .news-feed .sorting-by-games-developers a .sorting-by-news {
     display: flex;
@@ -139,13 +142,17 @@ body {
     letter-spacing: 1px;
     font-size: 13px;
     color: black;
-    width: 280px;
+    width: 270px;
     height: 40px;
 }
 
 .news-feed .sorting-by-games-developers a .sorting-by-news:hover {
     border-bottom: black solid 1px;
     cursor: pointer;
+}
+
+.news-feed .sorting-by-games-developers .active-game-news{
+    border-bottom: black solid 1px;
 }
 
 .news-feed .sorting-by-games-developers a .sorting-by-games {
@@ -157,13 +164,17 @@ body {
     letter-spacing: 1px;
     font-size: 13px;
     color: black;
-    width: 280px;
+    width: 270px;
     height: 40px;
 }
 
 .news-feed .sorting-by-games-developers a .sorting-by-games:hover {
     border-bottom: black solid 1px;
     cursor: pointer;
+}
+
+.news-feed .sorting-by-games-developers .active-developers -news{
+    border-bottom: black solid 1px;
 }
 
 .news-feed .sorting-by-games-developers a .sorting-by-developers {
@@ -175,7 +186,7 @@ body {
     letter-spacing: 1px;
     font-size: 13px;
     color: black;
-    width: 260px;
+    width: 250px;
     height: 40px;
 }
 
