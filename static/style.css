@@ -67,6 +67,14 @@ body {
     color: white;
 }
 
+.block-site-menu .site-menu .photo-username-login-logout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 55px;
+}
+
 .block-site-menu .photo-and-username {
     display: flex;
     justify-content: space-between;
@@ -91,6 +99,7 @@ body {
     align-items: center;
     width: 100px;
     height: 55px;
+    margin-bottom: 5px;
 }
 
 .block-site-menu .photo-and-username .users-name a {
@@ -103,6 +112,13 @@ body {
     font-size: 17px;
     color: white;
 }
+
+.block-site-menu .site-menu .news-login-logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .news-feed {
     display: flex;
@@ -468,7 +484,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 640px;
+    width: 650px;
     border: black solid 1px;
     border-radius: 5px;
     padding: 7px;
@@ -504,9 +520,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    border-radius: 50%;
     border: none;
+    background-color: white;
     outline: none;
 }
 
